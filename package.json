@@ -1,0 +1,27 @@
+{
+  "name": "freshly",
+  "version": "1.0.0",
+  "description": "Fridge app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivanr553/Freshly.git"
+  },
+  "author": "Ivan Raffucci, Mitchell Marsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ivanr553/Freshly/issues"
+  },
+  "homepage": "https://github.com/Ivanr553/Freshly#readme",
+  "dependencies": {
+    "react": "^16.6.3",
+    "redux": "^4.0.1",
+    "redux-saga": "^0.16.2",
+    "reselect": "^4.0.0",
+    "styled-components": "^4.1.1"
+  },
+  "devDependencies": {}
+}
