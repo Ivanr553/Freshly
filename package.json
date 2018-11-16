@@ -1,10 +1,15 @@
 {
   "name": "freshly",
+  "private": true,
   "version": "1.0.0",
   "description": "Fridge app",
   "main": "index.js",
+  "workspaces": [
+    "src/**/**/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open --display-error-details"
   },
   "repository": {
     "type": "git",
@@ -17,11 +22,27 @@
   },
   "homepage": "https://github.com/Ivanr553/Freshly#readme",
   "dependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "@types/react": "^16.7.5",
+    "@types/react-dom": "^16.0.9",
+    "@types/styled-components": "^4.1.0",
+    "@types/webpack-env": "^1.13.6",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.4",
     "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-redux": "^5.1.1",
     "redux": "^4.0.1",
-    "redux-saga": "^0.16.2",
     "reselect": "^4.0.0",
-    "styled-components": "^4.1.1"
+    "styled-components": "^4.1.1",
+    "typescript": "^3.1.6"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
 }

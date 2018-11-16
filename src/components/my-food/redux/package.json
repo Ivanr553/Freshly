@@ -1,0 +1,5 @@
+{
+    "name": "component.my-food.reducer",
+    "version": "1.0.0",
+    "main": "reducer.ts"
+}
