@@ -1,0 +1,1 @@
+export const PAGE_CLICKED = "PAGE_CLICKED"

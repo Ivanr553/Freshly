@@ -1,0 +1,5 @@
+{
+    "name": "component.food-bin-page",
+    "version": "1.0.0",
+    "main": "reducer.ts"
+}
