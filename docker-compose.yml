@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  freshly:
+    build: .
+    ports:
+      - 9000:9000
+    volumes:
+      - .:/freshly:rw
+      - node_modules:/freshly/node_modules:rw
+    command: bash -c "yarn && yarn dev"
+
+volumes:
+  node_modules:

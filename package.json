@@ -8,7 +8,9 @@
     "src/**/**/*"
   ],
   "scripts": {
-    "dev": "webpack-dev-server --open"
+    "dev": "webpack-dev-server --open",
+    "docker": "docker-compose up",
+    "down": "docker-compose down"
   },
   "repository": {
     "type": "git",
