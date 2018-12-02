@@ -4,7 +4,7 @@ services:
   freshly:
     build: .
     ports:
-      - 9000:9000
+      - 1600:1600
     volumes:
       - .:/freshly:rw
       - node_modules:/freshly/node_modules:rw

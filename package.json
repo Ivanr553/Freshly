@@ -9,7 +9,10 @@
   ],
   "scripts": {
     "dev": "webpack-dev-server --open",
-    "docker": "docker-compose up",
+    "docker": "node start-docker.js",
+    "docker:darwin": "docker-compose up -d && start http://localhost:1600",
+    "docker:windows": "docker-compose up -d && start http://192.168.99.100:1600",
+    "docker-compose": "docker-compose up -d",
     "down": "docker-compose down"
   },
   "repository": {
